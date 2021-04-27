@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'Conv_AgencyFBBold';
+    src: url('../fonts/AgencyFBBold.eot');
+    src: local('☺'), url('../fonts/AgencyFBBold.woff') format('woff'), url('../fonts/AgencyFBBold.ttf') format('truetype'), url('../fonts/AgencyFBBold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.agency {
+    font-family: 'Conv_AgencyFBBold';
+    font-weight: 300;
+}
+
+
+/* ========================================================================================================
+    HTML tags
+   ========================================================================================================*/
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /** Reset para REMS - 62.5% = 10px de 16px*/
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* ========================================================================================================
+    Home
+   ========================================================================================================*/
+
+.hero-home {
+    height: 100vh;
+}
+
+
+/* ========================================================================================================
+    navbar
+   ========================================================================================================*/
+
+.navbar {
+    padding: 2rem;
+    border-bottom: 1px solid red;
+}
+
+.navbar a,
+.navbar span {
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar a {
+    font-size: 2.5rem;
+    margin: auto;
+}
+
+.navbar span {
+    font-size: 3.5rem;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar-container {
+    position: fixed;
+    z-index: 5;
+}
+
+
+/* ========================================================================================================
+    carrousel
+   ========================================================================================================*/
+
+.carousel-item {
+    height: 100vh;
+}
+
+.carousel-item img {
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    display: flex!important;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
